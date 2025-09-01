@@ -6,6 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
     site: 'https://hima2oo4.github.io',
     base: '/hima2oo4.github.io',
+    // updated build
     vite: {
         plugins: [tailwindcss()],
     },
