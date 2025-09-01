@@ -1,0 +1,10 @@
+---
+const {userName, userRole, userBio} = Astro.props
+---
+<div class="flex font-mono flex-col justify-center items-center">
+    <h2 class="text-4xl sm : ( text-2xl ) bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">{userName}</h2>
+    <div class="h-2"></div>
+    <h4>{userRole}</h4>
+    <div class="h-6"></div>
+    <p>{userBio}</p>
+</div>
